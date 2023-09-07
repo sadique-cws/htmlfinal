@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <title>basic syntax</title>
+    </head>
+    <body>
+        <!-- this is heading for html -->
+        <h1>this is heading 1</h1>
+        <h2>this is heading 2</h2>
+        <h3>this is heading 3</h3>
+        <h4>this is heading 4</h4>
+        <h5>this is heading 5</h5>
+        <h6>this is heading 6</h6>
+        <!-- ending -->
+        <hr>
+        <!-- text formatting -->
+        <p>this is my <b>webpage design</b> in <i>html class</i> and <u>totally done</u> <br> by sadique hussain</p>
+
+        <h2>H<sub>2</sub>0</h2>
+        <h2>10<sup>3</sup></h2>
+
+        <h2>400/- <del>900/-</del></h2>
+        <hr>
+        <!-- ending -->
+        <!-- list (order/unordered) -->
+        <ol type="1" start="100">
+            <li>cow</li>
+            <li>ox</li>
+            <li>bull</li>
+            <li>dog</li>
+            <li>cat</li>
+        </ol>
+        <!-- unorder list -->
+        <ul type="circle">
+            <li>cow</li>
+            <li>ox</li>
+            <li>bull</li>
+            <li>dog</li>
+            <li>cat</li>
+        </ul>
+        <!-- nested list -->
+        <ol>
+            <li>wild animals
+                <ol>
+                    <li>Tiger</li>
+                    <li>Lion</li>
+                    <li>Elephant</li>
+                </ol>
+            </li>
+            <li>Domestic Animals
+                <ul>
+                    <li>Cow
+                        <ol>
+                            <li>red cow</li>
+                            <li>Norway Cow</li>
+                            <li>Jursey Cow</li>
+                        </ol>
+                    </li>
+                    <li>ox</li>
+                    <li>goat</li>
+                    <li>dog</li>
+                    <li>horse</li>
+                </ul>
+            </li>
+        </ol>
+        <!-- ending  -->
+        <!-- hyperlink -->
+        <span>Reg Card</span>
+        <a href="docs.pdf" target="_blank">View</a>
+        <a href="docs.pdf" target="_blank" download>Download</a>
+        <span>or Visit Purnea University</span>
+        <a href="https://registrationpup.in/Index/institute_index/ins/Purnea"> Website</a>
+        <!-- ending -->
+        <!-- image -->
+        <hr>
+        <div>
+            <img src="snake.jpg" border="10px" width="300px" alt="">
+        </div>
+
+        <!-- details -->
+        <details>
+            <summary>About Us</summary>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam necessitatibus minus unde totam minima voluptates, labore quis dolores perferendis incidunt tempora cum quas facilis exercitationem fuga optio nulla! Eius, aliquam.
+        </details>
+
+        <!-- data list -->
+
+        <input type="text" list="students">
+
+        <datalist id="students">
+            <option value="Aman">
+            <option value="Rishi">
+            <option value="Sumit">
+            <option value="rakesh">
+            <option value="Bhanu">
+            <option value="Silpi">
+            <option value="soni">
+            <option value="roni">
+            <option value="Rani">
+            <option value="Rounak">
+            <option value="sadique">
+        </datalist>
+
+        <!-- ending -->
+        <!-- progress -->
+        <progress min="0" max="100" value="10"></progress>
+
+        <!-- table -->
+        <table>
+            <tr>
+                <th></th>
+            </tr>
+        </table>
+        <!-- form -->
+        <form>
+            <input type="text" placeholder="enter your name">
+
+            <!-- dropdown menu -->
+            <label for="state">State</label>
+            <select id="state">
+                <option selected disabled>Please select State</option>
+                <option>Bihar</option>
+                <option>Jharkhand</option>
+                <option>MP</option>
+                <option>UP</option>
+                <option>Jammu</option>
+                <option>Maharastra</option>
+                <option >Gujarat</option>
+                <option>Goa</option>
+                <option>Rajasthan</option>
+            </select>
+
+            <!-- textarea -->
+            <label for="about">About You</label>
+            <textarea id="about" cols="30" rows="10"></textarea>
+        </form>
+    </body>
+</html>
